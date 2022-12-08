@@ -1,0 +1,30 @@
+.location__selection__container {
+    .location__input__form {
+        .input__group {
+            input {
+                display: block;
+                background-color: #eee;
+                border: 0;
+                padding: 0.65rem .75rem;
+                width: 100%;
+                box-sizing: border-box;
+                background-clip: padding-box;
+                border-radius: .5rem;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .location__selection__button {
+        .button__text {
+            small {
+                margin-top: -0.25rem;
+                display: block;
+                font-size: .8rem;
+            }
+        }
+    }
+}

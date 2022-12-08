@@ -108,4 +108,23 @@
   color: rgba(0, 0, 0, 0.65);
 }
 
+.location__selection__container .location__input__form .input__group input {
+  display: block;
+  background-color: #eee;
+  border: 0;
+  padding: 0.65rem 0.75rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border-radius: 0.5rem;
+}
+.location__selection__container .location__input__form .input__group input:focus {
+  outline: none;
+}
+.location__selection__container .location__selection__button .button__text small {
+  margin-top: -0.25rem;
+  display: block;
+  font-size: 0.8rem;
+}
+
 /*# sourceMappingURL=main.css.map */
