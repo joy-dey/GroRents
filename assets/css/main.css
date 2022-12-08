@@ -110,7 +110,7 @@
 
 .location__selection__container .location__input__form .input__group input {
   display: block;
-  background-color: #eee;
+  background-color: #f7f7f7;
   border: 0;
   padding: 0.65rem 0.75rem;
   width: 100%;
@@ -125,6 +125,122 @@
   margin-top: -0.25rem;
   display: block;
   font-size: 0.8rem;
+}
+
+.listing__details__image__container {
+  height: 20rem;
+  position: relative;
+}
+.listing__details__image__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.listing__details__image__container .back__button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.listing__details__image__container::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.listing__ammenities__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  background-color: #FEF2ED;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.listing__ammenities__container .lisitng__ammenity {
+  display: flex;
+  align-items: center;
+  color: #F7936F;
+  font-size: 85%;
+  justify-content: center;
+}
+.listing__ammenities__container .lisitng__ammenity .ammenity__icon {
+  margin-right: 0.35rem;
+}
+.listing__ammenities__container .lisitng__ammenity:first-child {
+  justify-content: start;
+}
+
+.agent__info__holder {
+  display: flex;
+  justify-content: space-between;
+}
+.agent__info__holder .parent__container {
+  display: flex;
+}
+.agent__info__holder .agent__info .agent__name + small {
+  display: block;
+  margin-top: -0.25rem;
+}
+.agent__info__holder .agent__contact__info .agent__contact__button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+.agent__info__holder .agent__contact__info .agent__contact__button:nth-child(1) {
+  background-color: #DEF0EA;
+  color: #4AAE8C;
+}
+.agent__info__holder .agent__contact__info .agent__contact__button:nth-child(2) {
+  background-color: #DFE5FF;
+  color: #4C6FFF;
+}
+
+.overview__container .overview__description {
+  line-height: 1.2;
+}
+
+.photos__container {
+  margin-top: 1.5rem;
+}
+.photos__container .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.photos__container .image__holder {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+}
+.photos__container .image__holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.reviews__holder .reviews__container .review__item .reviewer__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.reviews__holder .reviews__container .review__item .rating__bar {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  gap: 0.25rem;
+}
+.reviews__holder .reviews__container .review__item .rating__bar .rating__star i {
+  font-size: 0.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
