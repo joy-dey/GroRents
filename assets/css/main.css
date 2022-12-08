@@ -1,3 +1,35 @@
+.bottom__navigation__container {
+  background-color: #ffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  box-shadow: -1rem 0 1rem rgba(0, 0, 0, 0.5);
+}
+.bottom__navigation__container .bottom__nav {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  margin-bottom: 0;
+  padding: 0.5rem;
+}
+.bottom__navigation__container .bottom__nav .bottom__nav__items .bottom__nav__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.bottom__navigation__container .bottom__nav .bottom__nav__items .bottom__nav__link .bottom__nav__icon {
+  font-size: 1.5rem;
+}
+.bottom__navigation__container .bottom__nav .bottom__nav__items .bottom__nav__link .bottom__nav__text {
+  font-size: 0.825rem;
+}
+
 .search__container .search__location__form .search__input__holder {
   background-color: #f7f7f7;
   padding: 0.5rem 0.75rem;
@@ -40,6 +72,10 @@
   gap: 1rem;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.listing__slider__container .listing__slider ::-webkit-scrollbar {
+  display: none;
 }
 .listing__slider__container .listing__slider .listing__card {
   width: 100%;

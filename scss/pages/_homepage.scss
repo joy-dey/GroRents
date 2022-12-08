@@ -1,3 +1,4 @@
+// home page
 .search__container
 {
     .search__location__form
@@ -52,6 +53,10 @@
         gap: 1rem;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        ::-webkit-scrollbar {
+            display: none;
+        }
         .listing__card {  
             width: 100%;      
             flex-shrink: 0;  
