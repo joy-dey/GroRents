@@ -5,7 +5,7 @@
     bottom: 0;
     width: 100%;
     left: 0;
-    box-shadow: -1rem 0 1rem rgba($color: #000000, $alpha: .5);
+    box-shadow: -1rem 0 1rem -.25rem rgba($color: #000000, $alpha: .25);
     .bottom__nav {
         list-style: none;
         padding-left: 0;
@@ -23,7 +23,7 @@
                 text-decoration: none;
                 color: rgba($color: #000000, $alpha: .5);
                 .bottom__nav__icon {
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                 }
                 .bottom__nav__text {
                     font-size: .825rem;

@@ -4,7 +4,7 @@
   bottom: 0;
   width: 100%;
   left: 0;
-  box-shadow: -1rem 0 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: -1rem 0 1rem -0.25rem rgba(0, 0, 0, 0.25);
 }
 .bottom__navigation__container .bottom__nav {
   list-style: none;
@@ -24,7 +24,7 @@
   color: rgba(0, 0, 0, 0.5);
 }
 .bottom__navigation__container .bottom__nav .bottom__nav__items .bottom__nav__link .bottom__nav__icon {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .bottom__navigation__container .bottom__nav .bottom__nav__items .bottom__nav__link .bottom__nav__text {
   font-size: 0.825rem;
