@@ -1,0 +1,75 @@
+.search__container .search__location__form .search__input__holder {
+  background-color: #f7f7f7;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.search__container .search__location__form .search__input__holder i {
+  color: rgba(0, 0, 0, 0.5);
+}
+.search__container .search__location__form .search__input__holder .search__location__input {
+  border: 0;
+  background-color: transparent;
+  padding: 0.25rem 0.5rem;
+  width: 90%;
+}
+.search__container .search__location__form .search__input__holder .search__location__input:focus, .search__container .search__location__form .search__input__holder .search__location__input:active {
+  outline: none;
+}
+.search__container .quick__filters .quick__filter__items {
+  border: 0;
+  padding: 0.35rem 0.75rem;
+  color: rgba(0, 0, 0, 0.65);
+  border-radius: 0.25rem;
+}
+.search__container .quick__filters .quick__filter__items:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.listing__slider__container .listing__slider__header .header__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.listing__slider__container .listing__slider {
+  margin-top: 1.25rem;
+  overflow-x: scroll;
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.listing__slider__container .listing__slider .listing__card {
+  width: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+.listing__slider__container .listing__slider .listing__card .image__container {
+  height: 12rem;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+}
+.listing__slider__container .listing__slider .listing__card .image__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.listing__slider__container .listing__slider .listing__card .image__container .fav__button {
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/*# sourceMappingURL=main.css.map */
