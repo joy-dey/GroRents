@@ -351,4 +351,9 @@
   color: #505780;
 }
 
+.form-section #signup-form button, .form-section #login-form button {
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+}
+
 /*# sourceMappingURL=main.css.map */
